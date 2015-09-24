@@ -6,7 +6,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git@tentripleone.com:mocha-node-workflow.git"
+    "url": "git@github.com:jotham/express-node-mocha-base-setup.git"
   },
   "author": "Jotham Read <jotham.read@gmail.com>",
   "license": "ISC",
