@@ -1,0 +1,25 @@
+{
+  "name": "mocha-node-workflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@tentripleone.com:mocha-node-workflow.git"
+  },
+  "author": "Jotham Read <jotham.read@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.0",
+    "config": "^1.16.0",
+    "express": "^4.13.3",
+    "lodash": "^3.10.1",
+    "morgan": "^1.6.1",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "supertest": "^1.1.0"
+  }
+}

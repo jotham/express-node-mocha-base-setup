@@ -1,0 +1,11 @@
+{
+   "webservice": {
+      "httpd": {
+         "host": "0.0.0.0",
+         "port": "8080"
+     }
+   },
+   "mocha": {
+      "webserviceUrl": "http://localhost:8080"
+   }
+}
