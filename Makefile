@@ -18,15 +18,15 @@ install:
 .PHONY: install
 
 test:
-	 mocha test/
+	 mocha --recursive test/
 .PHONY: test
 
 watch:
-	find . -not -path '*node_modules*' \( -name '*.js' -o -name '*.json' \) \
+	@find . -not -path '*node_modules*' \( -name '*.js' -o -name '*.json' \) \
         | entr -r node src/index.js
 
 watch-test:
-	sleep 1 # Let node reload
-	find . -not -path '*node_modules*' \( -name '*.js' -o -name '*.json' \) \
+	@sleep 1 # Let node reload
+	@find . -not -path '*node_modules*' \( -name '*.js' -o -name '*.json' \) \
         | entr -r mocha --recursive test/
 
